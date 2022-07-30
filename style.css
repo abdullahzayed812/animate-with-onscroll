@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full-height {
+    width: 100%;
+    height: 100vh;
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+/* .full-height .skills {} */
+.full-height .progress {
+    position: relative;
+    width: 600px;
+    height: 30px;
+    background-color: white;
+}
+.full-height .progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: red;
+    transition: ease-in .5s;
+}
